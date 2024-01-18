@@ -1,0 +1,174 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    border: none;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 360px 2fr;
+    height: 100vh;
+}
+
+.nav {
+    background: rgb(125, 86, 216);
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.img {
+    height: 640px;
+    width: 360px;
+}
+
+.container {
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.contact {
+    /*  display: flex;
+    flex-direction: column;
+
+    align-items: center; */
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hr {
+    width: 150%;
+    height: 1px;
+    background: white;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.language__container {
+    padding-left: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.contact__container {
+    padding-left: 20px;
+}
+
+.contact__title {
+    margin-bottom: 5px;
+}
+
+.contact__text {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact__text {
+    color: #fff;
+}
+
+.about__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about__title {
+    font-size: 3rem;
+}
+
+.about__subtitle {
+    font-size: 1.5rem;
+}
+
+.hr__header {
+    margin-bottom: 100px;
+}
+
+.about__me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.skill {
+    padding-left: 10px;
+}
+
+.personal__data {
+    padding-left: 10px;
+}
+
+.education {
+    margin-bottom: 50px;
+}
+
+.expirience {
+    margin-bottom: 50px;
+    ;
+}
+
+.links {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.education__subtitle {
+    padding-left: 10px;
+}
+
+.education__subtitle+.education__subtitle {
+    margin-top: 7px;
+}
