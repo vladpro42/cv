@@ -167,8 +167,8 @@ body {
 
 .education__subtitle {
     padding-left: 10px;
+    max-width: 650px;
+    margin-top: 15px;
+
 }
 
-.education__subtitle+.education__subtitle {
-    margin-top: 7px;
-}
